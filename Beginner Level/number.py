@@ -1,7 +1,8 @@
 a=int(input())
-if(a>0):
+if(1<=a<=100000):
+ if(a>0):
   print("Positive")
-elif(a<0):
+ elif(a<0):
   print("negative")
-else:
+ else:
   print("zero")
